@@ -92,5 +92,6 @@ public class Main {
         int a_ = 786, b_;
         b_ = (a_ / 10) % 10;
         System.out.println(b_);
+
     }
 }
