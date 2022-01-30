@@ -7,18 +7,18 @@ public class Main {
 
     //Задание 1.
 	// целочисленные
-        byte b = 127;
+        byte b1 = 127;
         short s = 32_767;
         int i = 2_147_483_647;
         long l = 9_223_372_036_854_775_807L;
     //вещественные
         float f = 1.777_777_7f;
-        double d = 20.777_777_777_777;
+        double d1 = 20.777_777_777_777;
     //символьные
-        char c = 76;
-        char c1 = 'L';
+        char c1 = 76;
+        char c2 = 'L';
     //логические
-        boolean trueOrFalse = c == c1;
+        boolean trueOrFalse = c1 == c2;
 
     //Задание 2.
         System.out.println("Задание 2");
@@ -52,7 +52,7 @@ public class Main {
         System.out.println("Количество дней, при потери веса в 500 грамм ежедневно: " + dayResult2);
         System.out.println("В среднем это займет: " + averageDayResult + " день");
 
-        //Задание 5.
+    //Задание 5.
         System.out.println("Задание 5");
         float salaryOfMary, salaryOfDenis, salaryOfKristina;
         float salaryOfMaryNew, salaryOfDenisNew, salaryOfKristinaNew, differenceSalaryMary, differenceSalaryDenis, differenceSalaryKristina;
@@ -72,6 +72,25 @@ public class Main {
         differenceSalaryKristina = (salaryOfKristinaNew*12)-(salaryOfKristina*12);
         System.out.println("Кристина теперь получает " + salaryOfKristinaNew + " рублей. Годовой доход вырос на " + differenceSalaryKristina + " рублей");
 
+   // дополнительные задания)
+   //Задание 6.
+        System.out.println("Задание 6.");
+        int a = 12, b = 27, c = 44, d = 15, e = 9, result;
+        result = a * (b + (c - d * e));
+        System.out.println(result * -1);
 
+   //Задание 7.
+        System.out.println("Задание 7.");
+        int A = 5, B = 7;
+        A = A + B;
+        B = A - B;
+        A = A - B;
+        System.out.println(A +" " + B);
+
+   //Задание 8.
+        System.out.println("Задание 8.");
+        int a_ = 786, b_;
+        b_ = (a_ / 10) % 10;
+        System.out.println(b_);
     }
 }
